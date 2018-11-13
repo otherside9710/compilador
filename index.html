@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Compilador</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<body>
+<!-- As a link -->
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">Compilador</a>
+</nav>
+<br>
+<center><h5>Digite Su Codigo:</h5></center>
+<br>
+<textarea style="background-color: black; color: green;" name="linea" id="token" class="form-control" rows="7"></textarea>
+
+<br><br>
+
+<center><button class="btn btn-success" id="compile">Compilar</button></center>
+
+</body>
+<script src="js/jQuery3.3.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/script.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$('#token').val('A Entero; A = Captura.Entero(); A = 123; Mensaje.Real(2,222+2,2222-2,1);');
+	});
+</script>
+</html>
